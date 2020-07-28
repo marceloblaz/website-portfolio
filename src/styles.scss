@@ -1,0 +1,8 @@
+@import 'normalize';
+@import 'app/txt-styles';
+@import 'app/color-variables';
+
+body{
+  color: map-get($gray ,100 );
+  font-family: Ubuntu, sans-serif;
+}
