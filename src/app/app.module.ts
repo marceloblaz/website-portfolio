@@ -6,9 +6,10 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { IntroComponent } from './intro/intro.component';
 import { ProjectTemplateComponent } from './project-template/project-template.component';
+import { RouterModule } from '@angular/router';
 
 @NgModule({
-  imports:      [ BrowserModule, FormsModule ],
+  imports:      [ BrowserModule, FormsModule, RouterModule.forRoot([]) ],
   declarations: [ AppComponent, NavbarComponent, IntroComponent, ProjectTemplateComponent ],
   bootstrap:    [ AppComponent ]
 })
