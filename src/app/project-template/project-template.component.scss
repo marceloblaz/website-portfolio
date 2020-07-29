@@ -3,6 +3,9 @@
 :host{
   position: relative;
   color: map-get($gray , 200 );
+  a{
+    color: unset;
+  }
 }
 
 .project-container{
@@ -13,6 +16,8 @@
   border-radius: 2px;
   display: block;
   position: relative;
+  margin-bottom: 24px;
+
 }
 
 .img-cover{
