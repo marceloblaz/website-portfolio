@@ -1,9 +1,40 @@
+@import '../color-variables';
+
+:host{
+  position: relative;
+}
+
 .project-container{
   width: 100%;
   height: 270px;
   background: red;
   background-image: url("https://firebasestorage.googleapis.com/v0/b/mb-portfolio-e56f8.appspot.com/o/bronze%20pedra%20e%20madeira.png?alt=media&token=2502a692-1ec8-4174-898d-1936b55e472d");
-   background-repeat: no-repeat;
+  background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  overflow: hidden;
+  border: 1px solid map-get($gray, 700);
+  border-radius: 2px;
+  display: block;
+  position: relative;
+}
+
+.label{
+  position: absolute;
+  display: flex;
+  flex-flow: column;
+  background-color: map-get($gray , 900);
+  height: 64px;
+  width: calc(100% - 32px);
+  bottom: 0;
+  padding: 15px 16px 13px;
+}
+
+.label-content{
+  width: 100%;
+  margin: auto 0;
+  
+  p{
+    margin: 4px 0;
+  }
 }
