@@ -8,6 +8,8 @@ import { Component, OnInit, Input } from '@angular/core';
 export class ProjectTemplateComponent implements OnInit {
   @Input()
   year;
+  @Input()
+  imgsrc;
 
   constructor() { }
 

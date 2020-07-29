@@ -8,16 +8,20 @@
 .project-container{
   width: 100%;
   height: 270px;
-  background: red;
-  background-image: url("https://firebasestorage.googleapis.com/v0/b/mb-portfolio-e56f8.appspot.com/o/bronze%20pedra%20e%20madeira.png?alt=media&token=2502a692-1ec8-4174-898d-1936b55e472d");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
   overflow: hidden;
   border: 1px solid map-get($gray, 700);
   border-radius: 2px;
   display: block;
   position: relative;
+}
+
+.img-cover{
+  width: 100%;
+  height: auto;
+  position: relative;
+  margin: auto;
+  margin-top: -50%;
+  vertical-align: middle;
 }
 
 .label{
