@@ -2,6 +2,7 @@
 
 :host{
   position: relative;
+  color: map-get($gray , 200 );
 }
 
 .project-container{
@@ -37,4 +38,8 @@
   p{
     margin: 4px 0;
   }
+}
+
+.caption{
+  color: map-get($gray, 300 );
 }
