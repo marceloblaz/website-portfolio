@@ -10,6 +10,10 @@ export class ProjectTemplateComponent implements OnInit {
   year;
   @Input()
   imgsrc;
+  @Input()
+  nomeprojeto;
+  @Input()
+  descricao;
 
   constructor() { }
 
