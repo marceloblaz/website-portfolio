@@ -10,7 +10,7 @@
 
 .project-container{
   width: 100%;
-  height: 270px;
+  height: 30vh;
   overflow: hidden;
   border: 1px solid map-get($gray, 700);
   border-radius: 2px;
@@ -22,8 +22,10 @@
 
 .img-cover{
   width: 100%;
-  height: auto;
-  transform-origin: center center;
+  min-height: 30vh;
+  position: absolute;
+  transform: translate(0, -64px);
+  object-fit: cover;
 }
 
 .label{
