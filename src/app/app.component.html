@@ -1,5 +1,3 @@
 <app-navbar></app-navbar>
-<div class="content">
-  <app-intro></app-intro>
-  <app-project-template *ngFor="let item of lista" [year]=item.ano [imgsrc] = item.coverurl [nomeprojeto]=item.nome [descricao]=item.description></app-project-template>
-</div>
+<router-outlet></router-outlet>
+<app-home></app-home>

@@ -6,10 +6,15 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { IntroComponent } from './intro/intro.component';
 import { ProjectTemplateComponent } from './project-template/project-template.component';
+import { HomeComponent } from './home/home.component';
+import { RouterModule } from '@angular/router';
 
 @NgModule({
-  imports:      [ BrowserModule, FormsModule ],
-  declarations: [ AppComponent, NavbarComponent, IntroComponent, ProjectTemplateComponent ],
+  imports:      [ BrowserModule, FormsModule, RouterModule.forRoot([
+    {path: '', component: HomeComponent}
+
+  ]) ],
+  declarations: [ AppComponent, NavbarComponent, IntroComponent, ProjectTemplateComponent, HomeComponent ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
