@@ -1,0 +1,26 @@
+@import '../color-variables';
+
+:host {
+    background: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0 4%;
+    width: 100%;
+    height: 56px;
+    box-sizing: border-box;
+    border-top: 1px solid map-get($gray , 900 );
+    color: map-get($gray , 500 );
+    bottom: 0;
+    position: static;
+  }
+
+  a {
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: unset;
+      text-decoration: none;
+    }
+

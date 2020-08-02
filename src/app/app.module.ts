@@ -8,13 +8,14 @@ import { IntroComponent } from './intro/intro.component';
 import { ProjectTemplateComponent } from './project-template/project-template.component';
 import { HomeComponent } from './home/home.component';
 import { RouterModule } from '@angular/router';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule, RouterModule.forRoot([
     {path: '', component: HomeComponent}
 
   ]) ],
-  declarations: [ AppComponent, NavbarComponent, IntroComponent, ProjectTemplateComponent, HomeComponent ],
+  declarations: [ AppComponent, NavbarComponent, IntroComponent, ProjectTemplateComponent, HomeComponent, FooterComponent ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
