@@ -8,6 +8,8 @@ import { faCoffee } from '@fortawesome/free-solid-svg-icons';
 })
 export class FooterComponent implements OnInit {
 
+  faCoffee = faCoffee;
+
   constructor() { }
 
   ngOnInit() {
