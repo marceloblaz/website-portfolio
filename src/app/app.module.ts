@@ -9,9 +9,10 @@ import { ProjectTemplateComponent } from './project-template/project-template.co
 import { HomeComponent } from './home/home.component';
 import { RouterModule } from '@angular/router';
 import { FooterComponent } from './footer/footer.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @NgModule({
-  imports:      [ BrowserModule, FormsModule, RouterModule.forRoot([
+  imports:      [ BrowserModule, FormsModule, FontAwesomeModule,  RouterModule.forRoot([
     {path: '', component: HomeComponent}
 
   ]) ],

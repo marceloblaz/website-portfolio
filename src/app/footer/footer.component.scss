@@ -10,10 +10,10 @@
     width: 100%;
     height: 56px;
     box-sizing: border-box;
-    border-top: 1px solid map-get($gray , 900 );
-    color: map-get($gray , 500 );
-    bottom: 0;
+    color: map-get($gray , 100 );
+    border-top: 1px solid map-get($gray , 800 );
     position: static;
+    bottom: 0;
   }
 
   a {
