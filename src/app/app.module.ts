@@ -10,13 +10,14 @@ import { HomeComponent } from './home/home.component';
 import { RouterModule } from '@angular/router';
 import { FooterComponent } from './footer/footer.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { ProjectDetailsComponent } from './project-details/project-details.component';
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule, FontAwesomeModule,  RouterModule.forRoot([
     {path: '', component: HomeComponent}
 
   ]) ],
-  declarations: [ AppComponent, NavbarComponent, IntroComponent, ProjectTemplateComponent, HomeComponent, FooterComponent ],
+  declarations: [ AppComponent, NavbarComponent, IntroComponent, ProjectTemplateComponent, HomeComponent, FooterComponent, ProjectDetailsComponent ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
