@@ -1,0 +1,23 @@
+@import '../color-variables';
+@import '../txt-styles';
+a{
+  color: $accent;
+  text-decoration: none;
+}
+
+.content{
+  display: block;
+  padding: 4%;
+  max-width: 920px;
+  margin: auto;
+}
+
+h6{
+  color: map-get($gray , 100 );
+}
+
+.project-info{
+  @extend .body2;
+  max-width: 75%;
+  color: map-get($gray , 300 )
+}

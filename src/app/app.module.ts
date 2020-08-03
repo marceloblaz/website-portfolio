@@ -15,7 +15,7 @@ import { ProjectDetailsComponent } from './project-details/project-details.compo
 @NgModule({
   imports:      [ BrowserModule, FormsModule, FontAwesomeModule,  RouterModule.forRoot([
     {path: '', component: HomeComponent},
-    {path: 'projects', component: ProjectDetailsComponent}
+    {path: 'projects/:nome', component: ProjectDetailsComponent}
 
   ]) ],
   declarations: [ AppComponent, NavbarComponent, IntroComponent, ProjectTemplateComponent, HomeComponent, FooterComponent, ProjectDetailsComponent ],
