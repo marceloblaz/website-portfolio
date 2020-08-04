@@ -1,4 +1,4 @@
 <div class="content">
   <app-intro></app-intro>
-  <a routerLink="/projects/[nomeprojeto]=item.nome"><app-project-template *ngFor="let item of projects.buscaListaProjetos()" [year]=item.ano [imgsrc] = item.coverurl [nomeprojeto]=item.nome [descricao]=item.description></app-project-template></a>
+  <a *ngFor="let item of projects.buscaListaProjetos()" [routerLink]="['/projects' , item.nome]"><app-project-template  [year]=item.ano [imgsrc] = item.coverurl [nomeprojeto]=item.nome [descricao]=item.description></app-project-template></a>
 </div>
