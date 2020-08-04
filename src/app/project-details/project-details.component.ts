@@ -1,5 +1,6 @@
 import { Component, OnInit, Input } from '@angular/core';
 import { ProjectsServiceService } from '../projects-service.service';
+import { ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-project-details',
@@ -9,7 +10,14 @@ import { ProjectsServiceService } from '../projects-service.service';
 export class ProjectDetailsComponent implements OnInit {
 
 
-  constructor(public projects: ProjectsServiceService) { }
+  constructor(public projects: ProjectsServiceService, private route: ActivatedRoute) {}
+  ngOnInit(){
+    this.route.paramMap
+      .subscribe(params =>{
+        let nome = params.get('nome');
+      })
+  };
+  
 
 
-}
+};
