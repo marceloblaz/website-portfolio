@@ -11,6 +11,7 @@ import { RouterModule } from '@angular/router';
 import { FooterComponent } from './footer/footer.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { ProjectDetailsComponent } from './project-details/project-details.component';
+import { ProjectsServiceService } from './projects-service.service';
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule, FontAwesomeModule,  RouterModule.forRoot([
@@ -19,6 +20,7 @@ import { ProjectDetailsComponent } from './project-details/project-details.compo
 
   ]) ],
   declarations: [ AppComponent, NavbarComponent, IntroComponent, ProjectTemplateComponent, HomeComponent, FooterComponent, ProjectDetailsComponent ],
-  bootstrap:    [ AppComponent ]
+  bootstrap:    [ AppComponent ],
+  providers: [ProjectsServiceService]
 })
 export class AppModule { }
