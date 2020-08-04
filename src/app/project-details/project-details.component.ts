@@ -7,11 +7,9 @@ import { ProjectsServiceService } from '../projects-service.service';
   styleUrls: ['./project-details.component.scss']
 })
 export class ProjectDetailsComponent implements OnInit {
-  
+
 
   constructor(public projects: ProjectsServiceService) { }
 
-  ngOnInit() {
-  }
 
 }

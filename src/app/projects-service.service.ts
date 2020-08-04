@@ -22,7 +22,7 @@ export class ProjectsServiceService {
     this.lista.push(
       new Dado(
         1,
-        "Nome do projeto",
+        "banana",
         "descricao projeto 2",
         2019,
         "endereco da imagem da capa"
