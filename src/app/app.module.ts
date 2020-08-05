@@ -16,7 +16,7 @@ import { ProjectsServiceService } from './projects-service.service';
 @NgModule({
   imports:      [ BrowserModule, FormsModule, FontAwesomeModule,  RouterModule.forRoot([
     {path: '', component: HomeComponent},
-    {path: 'projects/:nome', component: ProjectDetailsComponent}
+    {path: 'projects/:id', component: ProjectDetailsComponent}
 
   ]) ],
   declarations: [ AppComponent, NavbarComponent, IntroComponent, ProjectTemplateComponent, HomeComponent, FooterComponent, ProjectDetailsComponent ],
