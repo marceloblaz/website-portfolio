@@ -12,7 +12,7 @@ export class ProjectsServiceService {
   constructor() {
     this.lista.push(
       new Dado(
-        1,
+        "1",
         "pagboletos",
         "Descricao projeto 1",
         2020,
@@ -21,7 +21,7 @@ export class ProjectsServiceService {
     );
     this.lista.push(
       new Dado(
-        1,
+        "2",
         "banana",
         "descricao projeto 2",
         2019,

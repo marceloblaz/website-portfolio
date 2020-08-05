@@ -14,7 +14,7 @@ export class ProjectDetailsComponent implements OnInit {
   ngOnInit(){
     this.route.paramMap
       .subscribe(params =>{
-        let nome = params.get('nome');
+        let nome = params.get('id');
       })
   };
   

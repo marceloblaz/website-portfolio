@@ -1,11 +1,11 @@
 export class Dado {
-  indice: number;
+  id: string;
   nome: string;
   description: string;
   ano: number;
   coverurl: any;
-  constructor(indice: number, nome: string, description:string, ano: number, coverurl: string) {
-    this.indice = indice;
+  constructor(id: string, nome: string, description:string, ano: number, coverurl: string) {
+    this.id = id;
     this.nome = nome;
     this.description = description;
     this.ano = ano;
