@@ -1,5 +1,5 @@
 import { Component, VERSION, OnInit, Input } from '@angular/core';
-import {Dado} from '../project-interface';
+import {Dado} from '../dado';
 
 @Component({
   selector: 'my-app',

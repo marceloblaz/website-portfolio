@@ -1,5 +1,5 @@
 import { Component, OnInit } from "@angular/core";
-import { Dado } from "../../project-interface";
+import { Dado } from "../../dado";
 import { ProjectsServiceService } from "../projects-service.service";
 
 @Component({

@@ -1,7 +1,7 @@
 import { Component, OnInit, Input } from "@angular/core";
 import { ProjectsServiceService } from "../projects-service.service";
 import { ActivatedRoute } from "@angular/router";
-import { Dado } from "../../project-interface";
+import { Dado } from "../../dado";
 
 @Component({
   selector: "app-project-details",
