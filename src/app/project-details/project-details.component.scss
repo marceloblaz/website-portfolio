@@ -14,6 +14,7 @@ a{
 
 h6{
   color: map-get($gray , 100 );
+  text-transform: capitalize;
 }
 
 .project-info{
