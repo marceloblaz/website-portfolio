@@ -33,15 +33,16 @@ export class ProjectsServiceService {
         "2",
         "Buquês são flores mortas",
         "Screen printed poster",
-        "One of the most popular ways of making payments in Brazil is the so called boleto. It's a bank slip with a barcode that can be scanned in order to make the payment. Normally they must be paid cash, so that's where pagboletos comes in: their proposition value is allowing users to pay the boleto with their credit, which gives the user more time to pay for their debt.",
+        "This poster was inspired in a song by a brazilian artist, Criolo. The phrase says that ’bouquets are dead flowers'. That sounded so interesting to me from the moment I first heard it, the conflict between the liveness e beauty of a bouquet and the fact that those flowers are actually dead. So I created this design and screen printed with either white or black it on colored paper.",
 
-        2017,
+        2016,
         "https://firebasestorage.googleapis.com/v0/b/mb-portfolio-e56f8.appspot.com/o/bsfm%2Fbuques-sao-flores-mortas-layout.jpg?alt=media&token=e612e9af-718b-496d-8697-96dfcf42e10f",
         [
+          ,
+          "https://firebasestorage.googleapis.com/v0/b/mb-portfolio-e56f8.appspot.com/o/bsfm%2Fbuques-sao-flores-mortas-layout.jpg?alt=media&token=e612e9af-718b-496d-8697-96dfcf42e10f",
           "https://firebasestorage.googleapis.com/v0/b/mb-portfolio-e56f8.appspot.com/o/bsfm%2Fbuques-sao-flores-mortas-amarelo.jpg?alt=media&token=e3675b11-95c3-404a-b195-2e85f0d104b9",
           "https://firebasestorage.googleapis.com/v0/b/mb-portfolio-e56f8.appspot.com/o/bsfm%2Fbuques-sao-flores-mortas-azul.jpg?alt=media&token=6c68859f-00ca-49ca-9578-5417f108f547",
-          "https://firebasestorage.googleapis.com/v0/b/mb-portfolio-e56f8.appspot.com/o/bsfm%2Fbuques-sao-flores-mortas-laranja.jpg?alt=media&token=c23b46a0-64f2-4716-9aa5-9943910637d1",
-          "https://firebasestorage.googleapis.com/v0/b/mb-portfolio-e56f8.appspot.com/o/bsfm%2Fbuques-sao-flores-mortas-layout.jpg?alt=media&token=e612e9af-718b-496d-8697-96dfcf42e10f"
+          "https://firebasestorage.googleapis.com/v0/b/mb-portfolio-e56f8.appspot.com/o/bsfm%2Fbuques-sao-flores-mortas-laranja.jpg?alt=media&token=c23b46a0-64f2-4716-9aa5-9943910637d1"
         ]
       )
     );
