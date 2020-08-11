@@ -12,6 +12,7 @@ import { FooterComponent } from './footer/footer.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { ProjectDetailsComponent } from './project-details/project-details.component';
 import { ProjectsServiceService } from './projects-service.service';
+import { APP_BASE_HREF } from '@angular/common';
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule, FontAwesomeModule,  RouterModule.forRoot([
@@ -21,6 +22,6 @@ import { ProjectsServiceService } from './projects-service.service';
   ]) ],
   declarations: [ AppComponent, NavbarComponent, IntroComponent, ProjectTemplateComponent, HomeComponent, FooterComponent, ProjectDetailsComponent ],
   bootstrap:    [ AppComponent ],
-  providers: [ProjectsServiceService]
+  providers: [ProjectsServiceService, {provide: APP_BASE_HREF, useValue: '/'}]
 })
 export class AppModule { }
