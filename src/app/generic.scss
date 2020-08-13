@@ -1,0 +1,8 @@
+@import 'color-variables';
+.emphasize{
+  color: map-get($gray , 100 )
+}
+
+.deemphasize{
+  color: map-get($gray , 300 );
+}

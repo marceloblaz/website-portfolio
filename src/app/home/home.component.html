@@ -1,4 +1,37 @@
 <div class="content">
-  <app-intro></app-intro>
-  <a *ngFor="let item of projects.buscaListaProjetos()" [routerLink]="['/projects' , item.id]"><app-project-template  [year]=item.ano [imgsrc] = item.coverurl [nomeprojeto]=item.nome [descricao]=item.description></app-project-template></a>
+	<app-intro></app-intro>
+	<a *ngFor="let item of projects.buscaListaProjetos()" [routerLink]="['/projects' , item.id]">
+		<app-project-template [year]=item.ano [imgsrc]=item.coverurl [nomeprojeto]=item.nome
+			[descricao]=item.description></app-project-template>
+	</a>
+  <hr>
+	<section class="about">
+		<h6 class="selfdescription">I'm a <span class="emphasize">UX designer</span> with
+			<span class="emphasize">frontend coding skills.</span> I'm interested in helping products become more
+			<span class="emphasize"> usable, inclusive, desirable</span> and
+			<span class="emphasize"> intelligent.</span></h6>
+		<section class="abouttopics">
+			<div class="topic">
+				<h6>Experience</h6>
+				<div class="bullet">
+					<p class="body">2018-present – UX designer at Caixa Econômica Federal</p>
+				</div>
+				<div class="bullet">
+					<p class="body">Prior to 2018 – Occasionally freelancing mostly in graphic design</p>
+				</div>
+			</div>
+			<div class="topic">
+				<h6>Education</h6>
+				<div class="bullet">
+					<p class="body">2013-2017 – Universidade de Brasília, Brasília, Brazil</p>
+					<p class="body2 deemphasize">Bachelor's degree in Graphic Deisgn</p>
+				</div>
+				<div class="bullet">
+					<p class="body">2014-2015 – The New School, New York, USA Bachelor's</p>
+					<p class="body2 deemphasize">1 year interchange program at Parsosn, the new school for design in New
+						York City</p>
+				</div>
+			</div>
+		</section>
+	</section>
 </div>

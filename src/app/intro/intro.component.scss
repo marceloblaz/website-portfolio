@@ -1,5 +1,5 @@
 @import '../txt-styles';
-@import '../color-variables';
+@import '../generic';
 
 :host{
 display: block;
@@ -17,9 +17,6 @@ max-width: 66%;
   color: map-get($gray , 100 )
 }
 
-.emphasize{
-  color: map-get($gray , 100 )
-}
 
 #waving-hand {
   padding: 0 16px;

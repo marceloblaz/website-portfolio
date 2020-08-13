@@ -1,7 +1,38 @@
+@import '../txt-styles';
+@import '../generic';
+@import '../color-variables';
+
+hr{
+  border-top: 1px solid map-get($gray , 700 );
+}
+
 .content{
   display: block;
   padding: 4%;
   max-width: 920px;
   margin: auto;
   margin-bottom: 56px;
+}
+
+.selfdescription{
+  color: map-get($gray , 300 );
+  padding: 16px 0;
+  margin: 16px 0;
+  max-width: 66%;
+}
+
+.abouttopics h6{
+  margin: 0;
+}
+
+.topic{
+  margin-top: 0;
+  margin-bottom: 16px;
+  p{
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .bullet{
+    margin-bottom: 8px;
+  }
 }
