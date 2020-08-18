@@ -11,6 +11,9 @@
 .project-container{
   width: 100%;
   height: 40vh;
+  @media (pointer: coarse){
+    max-height: 270px;
+  }
   overflow: hidden;
   border: 1px solid map-get($gray, 700);
   border-radius: 2px;
@@ -24,7 +27,6 @@
   width: 100%;
   min-height: 30vh;
   position: absolute;
-  transform: translate(0, -64px);
   object-fit: cover;
 }
 

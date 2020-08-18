@@ -5,6 +5,9 @@
 display: block;
 color: map-get($gray , 300);
 max-width: 66%;
+@media (pointer: coarse) {
+    max-width: unset;
+}
 }
 
 .greeting{
