@@ -19,6 +19,7 @@ export class ProjectsServiceService {
         2020,
         "https://firebasestorage.googleapis.com/v0/b/mb-portfolio-8e4f6.appspot.com/o/line-length-cover-website.png?alt=media&token=566d77d3-e168-41ef-9261-5d520235b5e6",
         [
+          "https://firebasestorage.googleapis.com/v0/b/mb-portfolio-8e4f6.appspot.com/o/line-length-cover-website.png?alt=media&token=566d77d3-e168-41ef-9261-5d520235b5e6",
           "https://firebasestorage.googleapis.com/v0/b/mb-portfolio-8e4f6.appspot.com/o/line-length-demo.gif?alt=media&token=fd5d3de0-b35d-4a27-84d1-246ce289213c",
           "https://firebasestorage.googleapis.com/v0/b/mb-portfolio-8e4f6.appspot.com/o/line-length-img-01.png?alt=media&token=88ca8953-953a-479f-8ed6-3ff63151830c"
         ]
