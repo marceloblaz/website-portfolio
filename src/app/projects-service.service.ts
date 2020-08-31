@@ -13,6 +13,20 @@ export class ProjectsServiceService {
     this.lista.push(
       new Dado(
         "1",
+        "Line Length",
+        "A Figma plugin that sets your text layer width based on the average amount of characters per line",
+        "I proudly present you Line Length, a plugin for Figma that resizes your text layers based on the average amount of characters per line. I designed and developed this plugin because I grew tired of counting characters or copy pasting into an online character counter tool. So I figured there should be a plugin for that! Figma plugins are flexible tools you can easily install that speed up your workflow, and that's exactly what I hope Line Length will do for all the Figma community! Look up for 'Line Lenght' in Figma Community to download it.",
+        2020,
+        "https://firebasestorage.googleapis.com/v0/b/mb-portfolio-8e4f6.appspot.com/o/line-length-cover-website.png?alt=media&token=566d77d3-e168-41ef-9261-5d520235b5e6",
+        [
+          "https://firebasestorage.googleapis.com/v0/b/mb-portfolio-8e4f6.appspot.com/o/line-length-demo.gif?alt=media&token=fd5d3de0-b35d-4a27-84d1-246ce289213c",
+          "https://firebasestorage.googleapis.com/v0/b/mb-portfolio-8e4f6.appspot.com/o/line-length-img-01.png?alt=media&token=88ca8953-953a-479f-8ed6-3ff63151830c"
+        ]
+      )
+    );
+    this.lista.push(
+      new Dado(
+        "2",
         "pagboletos",
         "An app for paying brazilian boletos with credit card",
         "One of the most popular ways of making payments in Brazil is the so called boleto. It's a bank slip with a barcode that can be scanned in order to make the payment. Normally they must be paid cash, so that's where pagboletos comes in: their proposition value is allowing users to pay the boleto with their credit, which gives the user more time to pay for their debt",
@@ -30,7 +44,7 @@ export class ProjectsServiceService {
     );
     this.lista.push(
       new Dado(
-        "2",
+        "3",
         "Buquês são flores mortas",
         "Screen printed poster",
         "This poster was inspired in a song by a brazilian artist, Criolo. The phrase says that ’bouquets are dead flowers'. That sounded so interesting to me from the moment I first heard it, the conflict between the liveness e beauty of a bouquet and the fact that those flowers are actually dead. So I created this design and screen printed with either white or black it on colored paper.",
