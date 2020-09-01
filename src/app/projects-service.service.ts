@@ -15,13 +15,13 @@ export class ProjectsServiceService {
         "1",
         "Line Length",
         "A Figma plugin that sets your text layer width based on the average amount of characters per line",
-        "I proudly present you Line Length, a plugin for Figma that resizes your text layers based on the average amount of characters per line. I designed and developed this plugin because I grew tired of counting characters or copy pasting into an online character counter tool. So I figured there should be a plugin for that! Figma plugins are flexible tools you can easily install that speed up your workflow, and that's exactly what I hope Line Length will do for all the Figma community! Look up for 'Line Lenght' in Figma Community to download it.",
+        "I proudly present you Line Length, a plugin for Figma that resizes your text layers based on the average amount of characters per line. I designed and developed this plugin because I grew tired of counting characters or copy pasting into an online character counter tool. So I figured there should be a plugin for that! Figma plugins are flexible tools you can easily install that speed up your workflow, and that's exactly what I hope Line Length will do for all the Figma community! Look up  'Line Length' in Figma Community to download it.",
         2020,
         "https://firebasestorage.googleapis.com/v0/b/mb-portfolio-8e4f6.appspot.com/o/line-length-cover-website.png?alt=media&token=566d77d3-e168-41ef-9261-5d520235b5e6",
         [
           "https://firebasestorage.googleapis.com/v0/b/mb-portfolio-8e4f6.appspot.com/o/line-length-cover-website.png?alt=media&token=566d77d3-e168-41ef-9261-5d520235b5e6",
           "https://firebasestorage.googleapis.com/v0/b/mb-portfolio-8e4f6.appspot.com/o/line-length-demo.gif?alt=media&token=fd5d3de0-b35d-4a27-84d1-246ce289213c",
-          "https://firebasestorage.googleapis.com/v0/b/mb-portfolio-8e4f6.appspot.com/o/line-length-img-01.png?alt=media&token=88ca8953-953a-479f-8ed6-3ff63151830c"
+          "https://firebasestorage.googleapis.com/v0/b/mb-portfolio-8e4f6.appspot.com/o/line-length-img-01.png?alt=media&token=a44628f0-3ccd-4889-b89e-1d08bd4a3a08"
         ]
       )
     );
