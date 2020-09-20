@@ -1,6 +1,12 @@
 @import 'color-variables';
 :host{
   height: 100vh;
+    @media print{
+      @page{
+    size: A4;
+    margin: 0;
+    }
+  }
 }
 .content{
   display: block;

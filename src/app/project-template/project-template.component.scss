@@ -6,6 +6,9 @@
   a{
     color: unset;
   }
+  @media print {
+    display: none;
+  }
 }
 
 .project-container{

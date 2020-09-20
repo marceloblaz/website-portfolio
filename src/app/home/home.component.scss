@@ -1,6 +1,7 @@
 @import '../txt-styles';
 @import '../generic';
 @import '../color-variables';
+@import '../trumps';
 
 hr{
   border-top: 1px solid map-get($gray , 700 );
