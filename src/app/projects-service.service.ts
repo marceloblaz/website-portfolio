@@ -30,7 +30,7 @@ export class ProjectsServiceService {
         "2",
         "pagboletos",
         "An app for paying brazilian boletos with credit card",
-        "One of the most popular ways of making payments in Brazil is the so called boleto. It's a bank slip with a barcode that can be scanned in order to make the payment. Normally they must be paid cash, so that's where pagboletos comes in: their proposition value is allowing users to pay the boleto with their credit, which gives the user more time to pay for their debt",
+        "One of the most popular ways of making payments in Brazil is the so called boleto. It's a bank slip with a barcode that can be scanned in order to make the payment. Normally they must be paid cash, so that's where pagboletos comes in: their proposition value is allowing users to pay the boleto with their credit, which gives the user more time to pay for their debt.",
         2020,
         "https://firebasestorage.googleapis.com/v0/b/mb-portfolio-8e4f6.appspot.com/o/pagboletos-cover.png?alt=media&token=a5099e2e-3188-44c8-b929-87858c2df91c",
         [
