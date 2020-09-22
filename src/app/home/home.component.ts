@@ -10,5 +10,7 @@ import { ProjectsServiceService } from "../projects-service.service";
 export class HomeComponent implements OnInit {
   constructor(public projects: ProjectsServiceService) {}
 
-  ngOnInit() {}
+  ngOnInit() {
+
+  }
 }
