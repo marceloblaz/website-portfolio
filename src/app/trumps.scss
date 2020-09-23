@@ -3,3 +3,10 @@
     display: none;
   }
 }
+
+.print{
+  display: none;
+  @media print{
+    display: unset;
+  }
+}
