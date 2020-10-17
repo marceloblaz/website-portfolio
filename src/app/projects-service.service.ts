@@ -13,6 +13,19 @@ export class ProjectsServiceService {
     this.lista.push(
       new Dado(
         "1",
+        "Multipaste",
+        "A Figma plugin to paste multiple layers to multiple frames or groups at once",
+        "As my second contribution to the Figma community, I've created Multipaste, a plugin that allows pasting multiple node elements to multiple frames or groups at once. Figma currently doesn't support pasting anything to multiple frames at once, so I created this plugin to solve that pain. It will work with elements that are nested within other frames or lose on the canvas. If it is a component, it will create an instance  of that component and paste the instance instead of duplicating the component. You can install it from https://www.figma.com/community/plugin/893914045094807058/Multipaste",
+        2020,
+        "https://firebasestorage.googleapis.com/v0/b/mb-portfolio-8e4f6.appspot.com/o/red-multipaste-plugin-cover.gif?alt=media&token=9926f76f-e45e-41d0-b8e6-27988002bbbc",
+        [
+          "https://firebasestorage.googleapis.com/v0/b/mb-portfolio-8e4f6.appspot.com/o/multipaste-image-01.gif?alt=media&token=7cf5364c-3984-41cd-852a-31a28b9ecfc1"
+        ]
+      )
+    );
+    this.lista.push(
+      new Dado(
+        "2",
         "Line Length",
         "A Figma plugin that sets your text layer width based on the average amount of characters per line",
         "I proudly present you Line Length, a plugin for Figma that resizes your text layers based on the average amount of characters per line. I designed and developed this plugin because I grew tired of counting characters or copy pasting into an online character counter tool. So I figured there should be a plugin for that! Figma plugins are flexible tools you can easily install that speed up your workflow, and that's exactly what I hope Line Length will do for all the Figma community! Look up  'Line Length' in Figma Community to download it.",
@@ -26,9 +39,10 @@ export class ProjectsServiceService {
         ]
       )
     );
+
     this.lista.push(
       new Dado(
-        "2",
+        "3",
         "pagboletos",
         "An app for paying brazilian boletos with credit card",
         "One of the most popular ways of making payments in Brazil is the so called boleto. It's a bank slip with a barcode that can be scanned in order to make the payment. Normally they must be paid cash, so that's where pagboletos comes in: their proposition value is allowing users to pay the boleto with their credit, which gives the user more time to pay for their debt.",
@@ -46,7 +60,7 @@ export class ProjectsServiceService {
     );
     this.lista.push(
       new Dado(
-        "3",
+        "4",
         "Buquês são flores mortas",
         "Screen printed poster",
         "This poster was inspired in a song by a brazilian artist, Criolo. The phrase says that ’bouquets are dead flowers'. That sounded so interesting to me from the moment I first heard it, the conflict between the liveness e beauty of a bouquet and the fact that those flowers are actually dead. So I created this design and screen printed with either white or black it on colored paper.",
