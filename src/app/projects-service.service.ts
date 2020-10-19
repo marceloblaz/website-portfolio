@@ -20,6 +20,7 @@ export class ProjectsServiceService {
         "https://firebasestorage.googleapis.com/v0/b/mb-portfolio-8e4f6.appspot.com/o/red-multipaste-plugin-cover.gif?alt=media&token=9926f76f-e45e-41d0-b8e6-27988002bbbc",
         [
           "https://firebasestorage.googleapis.com/v0/b/mb-portfolio-8e4f6.appspot.com/o/multipaste-image-01.gif?alt=media&token=7cf5364c-3984-41cd-852a-31a28b9ecfc1",
+          "https://firebasestorage.googleapis.com/v0/b/mb-portfolio-8e4f6.appspot.com/o/multipaste-image-03.png?alt=media&token=a4ec6c26-ec17-48a0-b510-edb6a9e542ac",
           "https://firebasestorage.googleapis.com/v0/b/mb-portfolio-8e4f6.appspot.com/o/multipaste-image-02.gif?alt=media&token=ffb62312-1a70-4f65-9851-88cc0a16d833"
         ]
       )
