@@ -35,7 +35,7 @@ export class ProjectsServiceService {
         "https://firebasestorage.googleapis.com/v0/b/mb-portfolio-8e4f6.appspot.com/o/line-length-cover-02.png?alt=media&token=5a762ca6-99a3-4c95-a25f-7cb14f9f070e",
         [
           "https://firebasestorage.googleapis.com/v0/b/mb-portfolio-8e4f6.appspot.com/o/line-length-img-02.png?alt=media&token=6cc9af19-69bf-4cdd-acaa-2aede82bb906",
-          "https://firebasestorage.googleapis.com/v0/b/mb-portfolio-8e4f6.appspot.com/o/line-length-cover-website.png?alt=media&token=566d77d3-e168-41ef-9261-5d520235b5e6",
+          "https://firebasestorage.googleapis.com/v0/b/mb-portfolio-8e4f6.appspot.com/o/line-length-cover-02.png?alt=media&token=5a762ca6-99a3-4c95-a25f-7cb14f9f070e",
           "https://firebasestorage.googleapis.com/v0/b/mb-portfolio-8e4f6.appspot.com/o/line-length-100-downloads.png?alt=media&token=d5d0f4f8-e035-4c29-894b-98c8cd337054",
           "https://firebasestorage.googleapis.com/v0/b/mb-portfolio-8e4f6.appspot.com/o/line-length-demo.gif?alt=media&token=fd5d3de0-b35d-4a27-84d1-246ce289213c",
           "https://firebasestorage.googleapis.com/v0/b/mb-portfolio-8e4f6.appspot.com/o/line-length-img-01.png?alt=media&token=a44628f0-3ccd-4889-b89e-1d08bd4a3a08"
