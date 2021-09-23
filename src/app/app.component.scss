@@ -1,15 +1,16 @@
 @import 'color-variables';
-:host{
+@import 'trumps';
+:host {
   height: 100vh;
-    @media print{
-      @page{
-    size: A4;
-    margin: 0;
+  @media print {
+    @page {
+      size: A4;
+      margin: 0;
     }
   }
   -webkit-print-color-adjust: exact;
 }
-.content{
+.content {
   display: block;
   padding: 4%;
   max-width: 920px;

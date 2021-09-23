@@ -2,40 +2,39 @@
 @import '../trumps';
 
 :host {
-    background: white;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    padding: 0 4%;
-    width: 100%;
-    height: 56px;
-    box-sizing: border-box;
-    color: map-get($gray , 500 );
-    border-top: 1px solid map-get($gray , 800 );
-    position: fixed;
-    bottom: 0;
-    break-inside: avoid-page;
-  }
+  background: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0 4%;
+  width: 100%;
+  height: 56px;
+  box-sizing: border-box;
+  color: map-get($gray, 500);
+  border-top: 1px solid map-get($gray, 800);
+  position: fixed;
+  bottom: 0;
+  break-inside: avoid-page;
+}
 
-  .socialicons{
-    *{
+.socialicons {
+  * {
     padding: 8px;
-    color: map-get($gray , 100 )
-    }
-    a{
-      color: unset;
-      :hover{
-        color: $accent;
-      }
-    }
-    .findme{
-      display: none;
-      color: map-get($gray , 500 );
-
-      @media print{
-        display: unset;
-      }
+    color: map-get($gray, 100);
+  }
+  a {
+    color: unset;
+    :hover {
+      color: $accent;
     }
   }
+  .findme {
+    display: none;
+    color: map-get($gray, 500);
 
+    @media print {
+      display: unset;
+    }
+  }
+}

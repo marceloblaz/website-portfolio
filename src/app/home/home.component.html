@@ -1,59 +1,103 @@
 <div class="content">
-	<app-intro></app-intro>
-	<a *ngFor="let item of projects.buscaListaProjetos()" [routerLink]="['/projects' , item.id]">
-		<app-project-template [year]=item.ano [imgsrc]=item.coverurl [nomeprojeto]=item.nome
-			[descricao]=item.description></app-project-template>
-	</a>
-	<hr class="no-print">
-	<section class="about">
-		<h6 class="selfdescription">I'm a <span class="emphasize">UX designer</span> with
-			<span class="emphasize">frontend coding skills.</span> I'm interested in helping products become more
-			<span class="emphasize"> usable, inclusive, desirable</span> and
-			<span class="emphasize"> intelligent.</span></h6>
+  <app-intro></app-intro>
+  <a
+    *ngFor="let item of projects.buscaListaProjetos()"
+    [routerLink]="['/projects', item.id]"
+  >
+    <app-project-template
+      [year]="item.ano"
+      [imgsrc]="item.coverurl"
+      [nomeprojeto]="item.nome"
+      [descricao]="item.description"
+    ></app-project-template>
+  </a>
+  <hr class="no-print" />
+  <section class="about">
+    <h6 class="selfdescription">
+      I'm a <span class="emphasize">product designer</span> who also has
+      <span class="emphasize">front-end coding skills.</span> I'm interested in
+      making products more
+      <span class="emphasize"> usable, inclusive, desirable</span> and
+      <span class="emphasize"> smarter.</span>
+    </h6>
 
-		<section class="abouttopics">
-			<div class="topic">
-				<h6>Experience</h6>
-				<div class="bullet">
-					<p class="body">2018-present – UX designer at Caixa Econômica Federal</p>
-					<p class="body2 xpdescription">Caixa Econômica is one of the biggest banks in Brazil, if not the biggest. I work on several of their apps, most prominently Caixa Tem, an app that has over 170M downloads and financially helped Brazilian people go through the 2020 COVID pandemic. I work with a team of 9 other designers to build various of Caixa's apps, webpages, and internal systems.</p>
-				</div>
-				<div class="bullet">
-					<p class="body">Prior to 2018 – Freelance UX/UI and Visual Design</p>
-					<p class="body2 xpdescription">I did lots of visual identity and graphic design projects for small
-						businesses and people. Mostly friends and people who helped me in the beginning.</p>
-				</div>
-			</div>
-			<div class="topic">
-				<h6>Education</h6>
-				<div class="bullet">
-					<p class="body">2013-2017 – Universidade de Brasília, Brasília, Brazil</p>
-					<p class="body2 deemphasize">Bachelor's degree in Graphic Design.</p>
-				</div>
-				<div class="bullet">
-					<p class="body">2014-2015 – The New School, New York, USA Bachelor's</p>
-					<p class="body2 deemphasize">1 year interchange program at Parsons, the new school for design in New
-						York City.</p>
-				</div>
-			</div>
-			<div class="topic">
-				<h6>Languages</h6>
-				<div class="bullet">
-					<p class="body">Portuguese</p>
-					<p class="body2 deemphasize">Portguese is my native language.</p>
-				</div>
-				<div class="bullet">
-					<p class="body">LIBRAS</p>
-					<p class="body2 deemphasize">LIBRAS is the brazilian sign language. Im currently at an intermediary
-						level.</p>
-				</div>
-				<div class="bullet">
-					<p class="body">English</p>
-					<p class="body2 deemphasize">I speak, read and write in fluent English.</p>
-				</div>
-			</div>
-			<div class="body 2 deemphasize no-print"><a href="" id="resumedownload"
-					onclick="window.print(); return false">download my resumé</a> (save it as pdf)</div>
-		</section>
-	</section>
+    <section class="abouttopics">
+      <div class="topic">
+        <h6>Experience</h6>
+        <div class="bullet">
+          <p class="body">2021-present – Product Designer at ArcTouch</p>
+          <p class="body2 xpdescription">
+            ArcTouch is an American consultancy company that develops apps and
+            experiences. Since the dawn of the app revolution, it has taken
+            pride in having helped businesses of all sizes, from the Fortune 500
+            to innovative startups. We work closely with big international
+            clients like Disney, Audi, McCormick, HP, Volvo, and others.
+          </p>
+        </div>
+        <div class="bullet">
+          <p class="body">2018-2021 – UX designer at Caixa Econômica Federal</p>
+          <p class="body2 xpdescription">
+            Caixa Econômica is one of the biggest banks in Brazil, if not the
+            biggest. I'm proud of having worked on several apps, most
+            prominently Caixa Tem, with over 170M downloads that financially
+            helped Brazilian people get through the 2020 COVID pandemic. I
+            worked with a team of 9 other designers to build various of Caixa's
+            apps, webpages, and internal systems.
+          </p>
+        </div>
+        <div class="bullet">
+          <p class="body">Prior to 2018 – Freelance UX/UI and Visual Design</p>
+          <p class="body2 xpdescription">
+            I did lots of visual identity and graphic design projects for small
+            businesses and people. Mostly friends and people who helped me in
+            the beginning.
+          </p>
+        </div>
+      </div>
+      <div class="topic">
+        <h6>Education</h6>
+        <div class="bullet">
+          <p class="body">
+            2013-2017 – Universidade de Brasília, Brasília, Brazil
+          </p>
+          <p class="body2 deemphasize">Bachelor's degree in Graphic Design.</p>
+        </div>
+        <div class="bullet">
+          <p class="body">
+            2014-2015 – The New School, New York, USA Bachelor's
+          </p>
+          <p class="body2 deemphasize">
+            1 year interchange program at Parsons, the new school for design in
+            New York City.
+          </p>
+        </div>
+      </div>
+      <div class="topic">
+        <h6>Languages</h6>
+        <div class="bullet">
+          <p class="body">Portuguese</p>
+          <p class="body2 deemphasize">Portguese is my native language.</p>
+        </div>
+        <div class="bullet">
+          <p class="body">LIBRAS</p>
+          <p class="body2 deemphasize">
+            LIBRAS is the brazilian sign language. Im currently at an
+            intermediary level.
+          </p>
+        </div>
+        <div class="bullet">
+          <p class="body">English</p>
+          <p class="body2 deemphasize">
+            I speak, read and write in fluent English.
+          </p>
+        </div>
+      </div>
+      <div class="body 2 deemphasize no-print">
+        <a href="" id="resumedownload" onclick="window.print(); return false"
+          >download my resumé</a
+        >
+        (save it as pdf)
+      </div>
+    </section>
+  </section>
 </div>

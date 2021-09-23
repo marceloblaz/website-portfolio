@@ -3,11 +3,11 @@
 @import '../color-variables';
 @import '../trumps';
 
-hr{
-  border-top: 1px solid map-get($gray , 700 );
+hr {
+  border-top: 1px solid map-get($gray, 700);
 }
 
-.content{
+.content {
   display: block;
   padding: 4%;
   max-width: 920px;
@@ -15,38 +15,39 @@ hr{
   margin-bottom: 56px;
 }
 
-.selfdescription{
-  color: map-get($gray , 300 );
+.selfdescription {
+  color: map-get($gray, 300);
   padding: 16px 0;
   margin: 16px 0;
   max-width: 66%;
-  @media (pointer: coarse){
+  @media (pointer: coarse) {
     max-width: unset;
   }
 }
 
-.abouttopics h6{
+.abouttopics h6 {
   margin: 0;
-  color: map-get($gray , 300 )
+  color: map-get($gray, 300);
 }
 
-.topic{
+.topic {
   margin-top: 0;
   margin-bottom: 24px;
   break-inside: avoid-page;
-  p{
+  p {
     margin-top: 0;
     margin-bottom: 0;
   }
-  .bullet{
+  .bullet {
     margin-bottom: 8px;
+    max-width: 80ex;
   }
 }
 
-#resumedownload{
+#resumedownload {
   color: $accent;
 }
 
-.xpdescription{
-  color: map-get($gray , 300)
+.xpdescription {
+  color: map-get($gray, 300);
 }
