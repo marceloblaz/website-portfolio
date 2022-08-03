@@ -2,7 +2,7 @@
   <app-intro></app-intro>
   <a
     *ngFor="let item of projects.buscaListaProjetos()"
-    [routerLink]="['/projects', item.id]"
+    [routerLink]="['/projects', item.nome]"
   >
     <app-project-template
       [year]="item.ano"
