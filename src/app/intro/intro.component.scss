@@ -2,37 +2,42 @@
 @import '../generic';
 @import '../trumps';
 
-:host{
-display: block;
-color: map-get($gray , 300);
-max-width: 66%;
-@media (pointer: coarse) {
+:host {
+  display: block;
+  color: map-get($gray, 300);
+  max-width: 66%;
+  @media (pointer: coarse) {
     max-width: unset;
-}
+  }
 }
 
-.greeting{
-  @extend h4;
+.greeting {
+  font-size: 56px;
+  font-weight: 300;
+  line-height: 100%;
   display: flex;
   flex-flow: row;
   align-items: center;
   transform: translate(-16px);
 
-  color: map-get($gray , 100 )
+  color: map-get($gray, 100);
 }
-
 
 #waving-hand {
   padding: 0 16px;
   transform: rotate(30deg);
-  font-size: 32px;
+  font-size: 48px;
   text-align: center;
   animation: wave 600ms alternate infinite;
   transform-origin: 50% 50%;
-  animation-timing-function: cubic-bezier(0.25,0,0.75,1)
+  animation-timing-function: cubic-bezier(0.25, 0, 0.75, 1);
 }
 
 @keyframes wave {
-  0% {transform: rotate(-15deg);}
-  100% {transform: rotate(30deg);}
+  0% {
+    transform: rotate(-15deg);
+  }
+  100% {
+    transform: rotate(30deg);
+  }
 }
