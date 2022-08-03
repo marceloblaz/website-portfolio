@@ -1,12 +1,12 @@
 @import '../color-variables';
 @import '../txt-styles';
 
-a{
+a {
   color: $accent;
   text-decoration: none;
 }
 
-.content{
+.content {
   display: block;
   padding: 4%;
   max-width: 920px;
@@ -14,24 +14,25 @@ a{
   margin-bottom: 56px;
 }
 
-h6{
-  color: map-get($gray , 100 );
+h6 {
+  color: map-get($gray, 100);
   text-transform: capitalize;
 }
 
-.project-info{
-  @extend .body2;
-  max-width: 75%;
-  @media (pointer: coarse){
+.project-info {
+  @extend .body;
+  // max-width: 75%;
+  @media (pointer: coarse) {
     max-width: unset;
+    font-size: 16px;
   }
-  color: map-get($gray , 300 )
+  color: map-get($gray, 300);
 }
 
-.ano{
-  color: map-get($gray , 300 )
+.ano {
+  color: map-get($gray, 300);
 }
 
-.btmmg{
+.btmmg {
   margin-bottom: 8px;
 }
