@@ -21,12 +21,13 @@ h6 {
 
 .project-info {
   @extend .body;
+  white-space: pre-line;
   // max-width: 75%;
   @media (pointer: coarse) {
     max-width: unset;
     font-size: 16px;
   }
-  color: map-get($gray, 300);
+  color: map-get($gray, 200);
 }
 
 .ano {
