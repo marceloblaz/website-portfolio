@@ -1,7 +1,7 @@
 <div class="content">
   <a class="buttontxt" routerLink=""> 👈 back to projects</a>
   <h4 style="margin: 16px auto">{{ projeto.nome }}</h4>
-  <p class="subtitle2 ano">{{ projeto.ano }}</p>
+  <p class="subtitle ano">{{ projeto.ano }}</p>
   <p class="project-info">{{ projeto.longdescription }}</p>
   <img
     *ngFor="let item of projeto.imgs"
